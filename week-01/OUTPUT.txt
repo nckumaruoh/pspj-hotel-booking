@@ -1,0 +1,3 @@
+CLASSROOM ROOM-STATE SIMULATOR
+Fixture rooms: R101, R102, R103
+Initial state: R101 -> READY
