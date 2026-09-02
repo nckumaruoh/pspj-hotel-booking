@@ -1,22 +1,35 @@
-# Hotel Booking and Occupancy Manager
+# Classroom Room-State Simulator
 
-A PSPJ Java console application built in visible weekly increments. This repository contains the project brief, weekly targets, runnable source as it is completed, and verification evidence.
+This PSPJ Java console-learning pathway is built in visible weekly increments using only synthetic room codes and state labels.
 
-## Twelve-week PSPJ execution plan
+> **Scope:** This is not a hotel or lodging system. It does not process real bookings, guests, payments, addresses, dates, availability, or hospitality operations.
 
-1. Define problem statement, users, sample data and console output.
-2. Capture and validate inputs.
-3. Implement core decisions and calculations.
-4. Add loop-driven workflow and menu.
-5. Extract reusable methods.
-6. Store and search data using arrays.
-7. Improve modularity and test edge cases.
-8. Apply recursion where it has a meaningful role.
-9. Model domain entities with classes and objects.
-10. Handle invalid input and exceptions.
-11. Persist records to files.
-12. Use collections and streams for a final report.
+## Twelve-week PSPJ execution record
 
-## Weekly submission rule
+| Week | Java focus | Runnable evidence |
+| --- | --- | --- |
+| 01 | Console baseline | `RoomStateWeek01.java` and output proof |
+| 02 | Validation | `RoomStateWeek02.java` and output proof |
+| 03 | Decisions | `RoomStateWeek03.java` and output proof |
+| 04 | Loops | `RoomStateWeek04.java` and output proof |
+| 05 | Methods | `RoomStateWeek05.java` and output proof |
+| 06 | Arrays and search | `RoomStateWeek06.java` and output proof |
+| 07 | Edge cases | `RoomStateWeek07.java` and output proof |
+| 08 | Recursion | `RoomStateWeek08.java` and output proof |
+| 09 | Classes and objects | `RoomStateWeek09.java` and output proof |
+| 10 | Exceptions | `RoomStateWeek10.java` and output proof |
+| 11 | Files | `RoomStateWeek11.java`, CSV fixture, and output proof |
+| 12 | Collections and streams | `RoomStateWeek12.java` and final documentation |
 
-Each week must be committed separately after compilation and a captured console-output check. Submit the GitHub commit link, source files, and a short output screenshot.
+Each week includes source, `PROCEDURE.md`, `TRACE.md`, and `OUTPUT.txt`. See [`docs/FINAL_DOCUMENTATION.md`](docs/FINAL_DOCUMENTATION.md) for the full evidence model.
+
+## Run a weekly increment
+
+From an individual `week-XX` folder:
+
+```powershell
+javac RoomStateWeekXX.java
+java RoomStateWeekXX
+```
+
+Compare the console result with `OUTPUT.txt` before committing that milestone.
