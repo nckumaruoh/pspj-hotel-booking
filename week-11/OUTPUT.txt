@@ -1,0 +1,3 @@
+CSV WRITTEN: room_state_fixture.csv
+ROWS WRITTEN: 4
+FILE CHECK: PASS
